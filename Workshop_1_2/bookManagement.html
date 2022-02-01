@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavel Book Management</title>
+    <link rel="stylesheet" href="./style.css">
+    
+<script src="./bookManage.js"></script>
+</head>
+<body id="showcase">
+    <div class="header">
+        <h1>Book management UI</h1>
+        
+        <h2>All your favourite genres at one stop</h2>
+        
+            <p>This book management ui lets you manage your books,</p>
+            <p>Be it add, remove, edit and list your favourite books !</p>
+      
+        </div>
+
+<div class="nav">  
+  <ul>
+    <li><button class="button button1" onclick="myFunction()">Add Book</button>
+    <div id="myDIV" style="color: white;">
+      Add New Book:<br>
+      <input id="age" type="text" name="firstname" value="">
+      <br>
+      <br>
+      
+      <input class="newButton" type="button" value="Submit" onclick="addBook()">
+      
+      <p id="demo" style="color: white;"></p>
+      
+      
+      
+        </div>
+    </li>
+  <br>
+        <li><button class="button button2" onclick="myFunction1()">Remove Book</button>
+    <div id="myDIV2" style="color: white;">
+        
+        <button class="newButton" onclick="showBooks()">Show Added Books</button>
+        <p id="show"></p>
+        <br>
+        <p>Which Book You wanna Remove ?</p>
+        <input id="deleteB" type="text" name="deleteBookName" value="">
+        <button  class="newButton" onclick="removeBook()">Delete IT</button>
+        &nbsp;
+        <button class="newButton" onclick="showUBooks()">Show Updated Books</button>
+        <p id="show2" style="color: white;"></p>
+        </div></li>
+
+<br>
+        <li><button class="button button3" onclick="myFunction2()">Edit Book</button>
+            <div id="myDIV3" style="color: white;">
+                <p style="color: white;">Enter the existing book name to update</p>
+                <input id="input" type="text" name="oldBookName">
+                <br>
+                <p style="color: white;">Enter the new book name to update</p>
+                <input id="output" type="text" name="newBookName">
+                <br>
+                <br>
+                <button class="newButton" onclick="editBookName()">Update</button>
+                <br>
+                <br>
+                <button class="newButton" onclick="showEditedBooks()">Show Edited Books</button>
+                <p id="show4" style="color: white;"></p>
+                </div>
+            </li>
+        <br>
+                <li><button class="button button4" onclick="myFunction3()">List Book</button>
+            <div id="myDIV4" style="color: white;">
+                LISTED BOOKS
+                <button class="newButton" onclick="listBooks()">List Books : </button>
+        <p id="show3" style="color: white;"></p>
+                </div></li>
+
+  </ul>
+</div> 
+        
+
+    
+<footer>
+    <p>Author: Pavel Das<br>
+    <a href="https://cybagemis.cybage.com/Framework/Iframe.aspx">Cybage Profile</a></p>
+  </footer>
+        
+</body>
+</html>

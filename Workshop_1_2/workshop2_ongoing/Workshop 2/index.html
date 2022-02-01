@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows JS Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <h1>Calculator</h1>
+        </header>
+        <section class="display">
+            <div class="previousvalue"></div>
+            <input type="text" class="currentvalue" value="0" readonly />
+        </section>
+
+        <button data-entry-clear>CE</button>
+        <button data-all-clear>AC</button>
+        <button data-delete>
+            DEL
+        </button>
+        <button data-operation>/</button>
+
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operation>*</button>
+
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operation>-</button>
+
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operation>+</button>
+
+        <button data-signChange>+/-</button>
+        <button data-number>0</button>
+        <button data-number>.</button>
+        <button data-equals>=</button>
+
+        <button Scientificoperation>Scientific</button>
+        <button data-operation>Square</button>
+        <button data-operation>cube</button>
+        <button data-operation>Square Root</button>
+    </main>
+</body>
+</html>

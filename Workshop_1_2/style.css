@@ -1,0 +1,179 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: rgb(209, 3, 209);
+    color: white;
+    height: auto;
+    
+    
+}
+
+.header:hover{
+    background-color: white;
+    color: rgb(209, 3, 209);
+    transition: all .8s ease;
+}
+
+/* #showcase {
+    margin:0;
+    padding: 0;
+    background: url('./book.jpg') no-repeat center/cover;
+    width: 100%;
+    background-repeat: repeat-y;
+} */
+
+#myDIV{
+    border-radius: 25px;
+    width: 50%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #5800FF;
+  opacity: 0.8;
+  margin-top: 20px;
+  color: darkblue;
+  transition: all .8s ease;
+}
+
+#myDIV2{
+    border-radius: 25px;
+    width: 50%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #5800FF;
+  opacity: 0.8;
+  margin-top: 20px;
+  color: darkblue;
+  transition: all .8s ease;
+}
+
+#myDIV3{
+    border-radius: 25px;
+    width: 50%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #5800FF;
+  opacity: 0.8;
+  margin-top: 20px;
+  color: darkblue;
+  transition: all .8s ease;
+}
+
+#myDIV4{
+    border-radius: 25px;
+    width: 50%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #5800FF;
+  opacity: 0.8;
+  margin-top: 20px;
+  color: darkblue;
+  transition: all .8s ease;
+}
+
+footer{
+    
+    color: black;
+    background-color: grey
+}
+footer:hover{
+    color: grey;
+    background-color: black;
+    transition: all .8s ease;
+}
+
+.button {
+    border-radius: 25px;
+    background-color: white; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all .8s ease;
+    opacity: 0.7;
+  }
+  
+  .button1 {
+    border-radius: 25px;
+    background-color: #5800FF; 
+    color: white; 
+    border: 2px solid white;
+    transition: all .8s ease;
+  }
+
+  .button2 {
+    border-radius: 25px;
+    background-color: #5800FF;
+    color: white; 
+    border: 2px solid white;
+    transition: all .8s ease;
+  }
+  
+  .button3 {
+    border-radius: 25px;
+    background-color: #5800FF; 
+    color: white;
+    border: 2px solid white;
+    transition: all .8s ease;
+  }
+  
+  .button4 {
+    border-radius: 25px;
+    background-color: #5800FF;
+    color: white;
+    border: 2px solid white;
+    transition: all .8s ease;
+  }
+
+  .button:hover{
+      background-color: white;
+      color: black;
+      transition: all .8s ease;
+  }
+
+  ul#menu li {
+    display:inline;
+  }
+
+  p{
+      text-align: center;
+      
+      font-size: large;
+  }
+
+  h2{
+    text-align: center;
+    
+    font-size: x-large;
+}
+
+h1{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #5800FF;
+    color: white;
+    opacity: o.8;
+  }
+
+  a:link{
+      color: white;
+
+  }
+
+
+  .newButton{
+    border-radius: 10px;
+
+  }
+
+
